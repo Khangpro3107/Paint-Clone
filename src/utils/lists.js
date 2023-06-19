@@ -30,6 +30,5 @@ export const initialColors = [
   "#ffd700",
   "#f5f5dc",
   "#00ff00",
-  "#008000",
-  "#adff2f",
+  "#008000"
 ];

@@ -49,7 +49,7 @@ const App = () => {
   const [isFilled, setIsFilled] = useState(false);
   const [canvasSize, setCanvasSize] = useState({
     width: 1400,
-    height: 600,
+    height: 500,
   });
 
   const createElement = (
@@ -454,7 +454,7 @@ const App = () => {
             id="canvasHeight"
             type="range"
             min="200"
-            max="600"
+            max="550"
             onChange={(e) =>
               setCanvasSize({ ...canvasSize, height: e.target.value })
             }
